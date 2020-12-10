@@ -62,38 +62,53 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  
+  
   main {
     display: block;
     width: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px
+    display:block;
+  
+    
+    
   }
   header {
     height: 50px;
     width: 100%;
+    padding-bottom: 50px;
 
   }
   .step-box {
     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 20px;
-
+    background-position: bottom;
     
+
 
   }
   .step-box:last-child {
-    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px; 
   }
-  .step-img1 {
-    background-size:cover;
-    background-position: center;
+   .step-img1 {
+     height: 150px;
+     background-size:110%;
+    background-position: 0 150px 20px  
   }
   .step-img2 {
+    height: 150px;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
+    
   }
   .step-img3 {
-    background-size: cover;
-    background-position: center;
+    height: 150px;
+    object-fit: cover;
+    background-position: 0 135px ;
+    
   }
   
   footer {
